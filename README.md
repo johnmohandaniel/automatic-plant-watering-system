@@ -15,6 +15,7 @@ An embedded system project that automates plant irrigation using real-time soil 
 - MOSFET + DC Pump
 
  📌 How It Works
+
 The system continuously reads soil moisture levels. When the soil becomes dry, the Arduino triggers a pump to water the plant automatically.
 
 🚀 Future Improvements
