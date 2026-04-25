@@ -18,6 +18,12 @@ An embedded system project that automates plant irrigation using real-time soil 
 
 The system continuously reads soil moisture levels. When the soil becomes dry, the Arduino triggers a pump to water the plant automatically.
 
+✅ Results
+
+- Successfully automated watering based on soil conditions
+- Reduced water usage compared to manual watering
+- Achieved reliable real-time response
+
 🚀 Future Improvements
 - Add mobile app monitoring
 - Add IoT cloud integration
