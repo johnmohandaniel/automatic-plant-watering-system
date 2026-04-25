@@ -1,29 +1,35 @@
- 🌱 Automatic Plant Watering System
+# Automatic Plant Watering System 🌱
 
-An embedded system project that automates plant irrigation using real-time soil moisture detection.
+## Overview
+An Arduino-based automated irrigation system that monitors soil moisture and waters plants when the soil becomes dry.
 
- 🔧 Features
-- Reads soil moisture using analog sensor
-- Converts voltage to ADC values
-- Automatically activates water pump using MOSFET
-- Prevents over-watering through threshold logic
+## Features
+- Real-time soil moisture detection
+- Automatic pump activation
+- Prevents overwatering
+- Efficient water usage
 
- 🛠️ Tech Used
+## Components Used
 - Arduino Uno
-- Java (Firmata4J)
 - Soil Moisture Sensor
-- MOSFET + DC Pump
+- MOSFET / Relay Module
+- DC Water Pump
+- Power Supply
 
- 📌 How It Works
+## How It Works
+The system continuously reads soil moisture levels.  
+When the moisture drops below a threshold, the Arduino activates the pump to water the plant.  
+Once adequate moisture is reached, the pump stops.
 
-The system continuously reads soil moisture levels. When the soil becomes dry, the Arduino triggers a pump to water the plant automatically.
+## Technologies
+- Arduino (C/C++)
+- Embedded Systems
+- Sensors & Actuators
 
-✅ Results
-
-- Successfully automated watering based on soil conditions
-- Reduced water usage compared to manual watering
-- Achieved reliable real-time response
-
-🚀 Future Improvements
+## Future Improvements
 - Add mobile app monitoring
-- Add IoT cloud integration
+- Add LCD display
+- Integrate IoT (WiFi control)
+
+## Author
+John Mohan Daniel
