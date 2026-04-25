@@ -22,7 +22,7 @@ When the moisture drops below a threshold, the Arduino activates the pump to wat
 Once adequate moisture is reached, the pump stops.
 
 ## Technologies
-- Arduino (C/C++)
+- Arduino (Java)
 - Embedded Systems
 - Sensors & Actuators
 
